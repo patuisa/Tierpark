@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("../fonts/Oswald-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald-M";
+    src: url("../fonts/Oswald-Medium.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+header {
+    background-image: url("../img/tiger.png");
+    color: white;
+    background-position: 50% 50%;
+    background-size: cover;
+    text-align: right;
+}
+
+.spenden {
+    text-align: right;
+}
+
+header h1, header h3, header ul {
+    text-align: left;
+}
+
+header h1 {
+    font-family: "Oswald-M";
+    font-size: 2.5rem;
+
+}
+
+header h3 {
+    font-family: "Oswald";
+    font-size: 1.25rem;
+    line-height: 2.5rem;
+
+}
+
+header ul{
+    font-family: "OpenSans";
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+
+}
+
+header a {
+    font-size: 1.25rem;
+    font-family: "Oswald";
+    text-decoration: none;
+    background-color: #da1d52;
+    color: white;
+    line-height: 2.5rem;
+}
+
+header span a {
+    background-color: #faa61a;
+}
+
+section h2 {
+    font-family: "Oswald-M";
+    font-size: 2.5rem;
+    line-height: 3rem;
+    text-align: center;
+    background-color: #d3e27e;
+    color: #7b8427;
+}
+
+section h3 {
+    font-family: "Oswald";
+    color: #7b8427;
+    font-size: 1.5rem;
+}
+
+section p, footer {
+    font-family: "OpenSans", "Arial", "sans-serif";
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+    text-align: left;
+}
+
+section p span {
+    font-style: italic;
+    color: #7b8427
+}
+
+footer {
+    text-align: right;
+    background-color: #da1d52;
+    color: white;
+}
